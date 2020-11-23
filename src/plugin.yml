@@ -1,0 +1,33 @@
+name: LobbyCore
+main: ml.mrgonci.lobbycore.Lobby
+version: 1.0.0
+author: Gonci
+depend: [PlaceholderAPI]
+
+permissions:
+  lobbycore.admin:
+    description: Permission for setup the owners funcitions (reload and more)
+  lobbycore.spawn:
+    description: Permission for do /spawn
+  lobbycore.socials:
+    description: Permission for social media commands (/discord, /forum, /twitter)
+
+commands:
+  lobbycore:
+    description: Main Command
+    permission: lobbycore.admin
+  lc:
+    description: Main Command
+    permission: lobbycore.admin
+  discord:
+    description: Send the discord server link
+    permission: lobbycore.socials
+  forum:
+    description: Send the forum server link
+    permission: lobbycore.socials
+  twitter:
+    description: Send the twitter server link
+    permission: lobbycore.socials
+  spawn:
+    description: Teleport to the spawn
+    permission: lobbycore.socials

@@ -1,0 +1,29 @@
+name: LobbyCore
+main: ml.mrgonci.lobbycore.Lobby
+version: 1.0.0
+author: Gonci
+depend: [PlaceholderAPI]
+
+permissions:
+  lobbycore.antivpn.notify:
+    description: Permission for notify staff if someone is using a vpn
+  lobbycore.admin:
+    description: Permission for setup the owners funcitions (reload and more)
+  lobbycore.spawn:
+    description: Permission for do /spawn
+  lobbycore.socials:
+    description: Permission for social media commands (/discord, /forum, /twitter)
+
+commands:
+  lobbycore:
+    description: Main Command
+  lc:
+    description: Main Command
+  discord:
+    description: Send the discord server link
+  forum:
+    description: Send the forum server link
+  twitter:
+    description: Send the twitter server link
+  spawn:
+    description: Teleport to the spawn

@@ -1,0 +1,42 @@
+###########################
+#  LobbyCore By Gonci    #
+#  Support Placeholders  #
+##########################
+
+no-permission: "&c[!] No permission"
+Welcome-motd:
+  enabled: true
+  message:
+    - ""
+    - "&fWelcome &5&l%player_name%&f to YourServer Network"
+    - ""
+    - "&5&lTwitter: &f@YourServer"
+    - "&5&lDiscord: &fDiscord.gg/YouServer"
+    - "&5&lForum: &fforum.yourserver.net"
+    - ""
+
+JoinMessage:
+  enabled: true
+  message: "&8[&a+&8] &f%player_name% &eJoined the game."
+
+QuitMessage:
+  enabled: true
+  message: "&8[&c-&8] &f%player_name% &eLeft the game."
+
+Spawn:
+  set-spawn-message: "&5&l(LobbyCore) &aSpawn set in your location"
+  teleport-tp-spawn: "&5&l(LobbyCore) &aYou've teleported to spawn"
+
+Social:
+  discord:
+    - ""
+    - "&fOur discord: &9Discord.gg/YouServer"
+    - ""
+  twitter:
+    - ""
+    - "&fOur Twitter: &b@YourServerNET"
+    - ""
+  forum:
+    - ""
+    - "&fOur discord: &aforum.yourserver.net"
+    - ""

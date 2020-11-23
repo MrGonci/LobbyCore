@@ -1,0 +1,16 @@
+disabledWorlds:
+  - world1
+  - world2
+# Set scoreboards title. NOTE: Maximum 16 caracters!
+Title: '&5&lLobbyCore &7(Hub 1)'
+# Here write at least 1 line for the scoreboard. NOTE: Maximum 42 characters per line AND maximum 15 lines!
+scoreboard-lines:
+  - 'Welcome::'
+  - '&c%player_name%'
+  - ''
+  - 'This is the default'
+  - 'Is really cool'
+  - 'edit me in'
+  - 'scoreboard.yml'
+  - ''
+  - '&6www.yourserver.net'
